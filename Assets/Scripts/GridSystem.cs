@@ -186,11 +186,6 @@ public class GridSystem : MonoBehaviour
         if (top == null) return;
 
         BoxCollider2D topCollider = top.GetComponent<BoxCollider2D>();
-        //if (topCollider == null)
-        //{
-        //    topCollider = top.AddComponent<BoxCollider2D>();
-        //    topCollider.size = new Vector2(10f, 0.5f);
-        //}
     }
 
     private static readonly Vector2Int[] EvenRowNeighbors =
